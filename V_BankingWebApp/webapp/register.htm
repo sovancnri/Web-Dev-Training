@@ -1,0 +1,65 @@
+<style>
+	a{
+		text-decoration:none;
+	}
+</style>
+<body bgcolor="#E8F5E9">
+	<center>
+		<p><font color ="grey" size ="4">Please Register Here !</font></p>
+		<div class="content">
+			<form action="regprocess" method="get">
+				<table>
+				<Caption>Sign Up</Caption>
+				<tr>
+					<td>Name</td>
+					<td><input type="text" name="txtname" id="txtname"/></td>
+				</tr>
+				<tr>
+					<td>age</td>
+					<td><input type="text" name="txtage" id="txtage"/></td>
+				</tr>
+				<tr>
+					<td>Gender</td>
+					<td>
+						<select name ="gender" id="gender">
+							<option>Male</option>
+							<option>Female</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Address</td>
+					<td>
+					<textarea name="txtaddress" id="txtaddress" rows="4" cols="35"></textarea>
+					</td>
+				</tr>	
+				<tr>
+					<td>Email</td>
+					<td><input type="email" name="txtemail" id="txtemail"/></td>
+				</tr>
+				<tr>
+					<td>Username</td>
+					<td><input type="text" name="txtuname" id="txtuname"/></td>
+				</tr>
+				<tr>
+					<td>Password</td>
+					<td><input type="password" name="txtpwd" id="txtpwd"/></td>
+				</tr>
+				<tr>
+					<td>Confirm Password</td>
+					<td><input type="password" name="txtcnfpwd" id="txt"/></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<input type="submit" value="Register"/>
+						<input type="reset" value="Clear"/>
+					</td>
+				</tr>
+			</table>
+			</form>
+			<a href = "login.htm">Registered User?Login Here</a>
+		</div>
+		
+	</center>
+</body>
